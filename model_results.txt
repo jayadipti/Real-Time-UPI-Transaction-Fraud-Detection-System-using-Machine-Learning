@@ -1,0 +1,29 @@
+UPI FRAUD DETECTION MODEL RESULTS
+
+Random Forest:
+  Accuracy: 0.9986
+  Precision: 0.9989
+  Recall: 0.9982
+  F1-Score: 0.9986
+  AUC: 0.9997
+
+Logistic Regression:
+  Accuracy: 0.5577
+  Precision: 0.5528
+  Recall: 0.6040
+  F1-Score: 0.5773
+  AUC: 0.5674
+
+BEST MODEL: Random Forest
+
+Top 10 Most Important Features:
+  sender_age_group: 0.1599
+  sender_bank: 0.1175
+  receiver_age_group: 0.1052
+  transaction type: 0.0893
+  receiver_bank: 0.0823
+  sender_state: 0.0616
+  day_of_week_num: 0.0479
+  merchant_category: 0.0460
+  day_of_week: 0.0456
+  network_type: 0.0448
