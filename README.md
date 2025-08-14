@@ -57,9 +57,9 @@ The system generates comprehensive visualizations:
 - **Precision-Recall Curve**: Fraud detection performance
 - **Feature Importance**: Key factors in fraud detection
 
- Model Configuration
+ **Model Configuration**
 
-Random Forest Parameters
+**Random Forest Parameters**
 
 RandomForestClassifier(
     n_estimators=200,
@@ -70,7 +70,7 @@ RandomForestClassifier(
     class_weight='balanced'
 )
 
-Logistic Regression Parameters
+**Logistic Regression Parameters**
 
 LogisticRegression(
     random_state=42,
@@ -79,7 +79,7 @@ LogisticRegression(
 )
 
 
- Business Impact
+ **Business Impact**
 
 For Payment Companies (like PhonePe)
 - **Fraud Prevention**: Reduces financial losses from fraudulent transactions
